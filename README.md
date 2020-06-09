@@ -1,24 +1,10 @@
-# README
+# RailsAdmin stock_report  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Consider you have a need to manage products that belong to certain categories.  
+In this exercise, you create a Product model and a Cateogry model, and then decide to use RailsAdmin.  
+Now you need stock reports for products and for categories.  
 
-Things you may want to cover:
+Oh, what do do?  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A custom action sounds like a good solution, doesn't in?  
+If you've answered yes, take a peak at this app's code. :-)  
