@@ -16,7 +16,7 @@ module RailsAdmin
 
         register_instance_option :controller do
           Proc.new do
-            @products = Product.all
+            @objects = list_entries(@model_config).send(:all)
           end
         end
       end

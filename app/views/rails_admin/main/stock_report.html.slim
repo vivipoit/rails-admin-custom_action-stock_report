@@ -7,9 +7,9 @@
         th.text-center Sold
         th.text-center In Stock
     tbody
-      - @products.each do |product|
+      - @objects.each do |object|
         tr
-          td = product.name
-          td.text-center = product.obtained
-          td.text-center = product.sold
-          td.text-center = product.in_stock
+          td = object.name
+          td.text-center = object.obtained
+          td.text-center = object.sold
+          td.text-center = object.in_stock
