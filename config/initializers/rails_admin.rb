@@ -42,7 +42,7 @@ RailsAdmin.config do |config|
     # history_show
 
     stock_report do
-      only ['Product']
+      only ['Product', 'Category']
     end
   end
 end
