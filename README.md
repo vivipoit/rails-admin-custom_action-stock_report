@@ -1,4 +1,4 @@
-# RailsAdmin stock_report  
+# RailsAdmin custom_action stock_report  
 
 Consider you have a need to manage products that belong to certain categories.  
 In this exercise, you create a Product model and a Cateogry model, and then decide to use RailsAdmin.  
