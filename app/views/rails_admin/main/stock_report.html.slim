@@ -1,0 +1,15 @@
+#list
+  table.table.table-condensed.table-striped
+    thead
+      tr
+        th Name
+        th.text-center Obtained
+        th.text-center Sold
+        th.text-center In Stock
+    tbody
+      - @products.each do |product|
+        tr
+          td = product.name
+          td.text-center = product.obtained
+          td.text-center = product.sold
+          td.text-center = product.in_stock

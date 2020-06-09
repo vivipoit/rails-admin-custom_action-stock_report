@@ -1,0 +1,7 @@
+en:
+  admin:
+    actions:
+      stock_report:
+        menu: Stock Report
+        title: Stock Report
+        breadcrumb: Stock Report

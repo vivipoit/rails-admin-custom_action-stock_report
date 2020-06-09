@@ -1,3 +1,6 @@
+require Rails.root.join('lib', 'rails_admin', 'config', 'actions', 'stock_report.rb')
+RailsAdmin::Config::Actions.register(RailsAdmin::Config::Actions::StockReport)
+
 RailsAdmin.config do |config|
 
   ### Popular gems integration
@@ -37,5 +40,9 @@ RailsAdmin.config do |config|
     ## With an audit adapter, you can add:
     # history_index
     # history_show
+
+    stock_report do
+      only ['Product']
+    end
   end
 end
